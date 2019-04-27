@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul {
+            border: none;
+             text-align: center;
+        }
+        li {
+            list-style-type: none;
+            border: none;
+        }
+        .u1 li {
+            letter-spacing: 4px;
+            text-align: center;
+        }
+        .u1 {
+        }
+        .height input {
+            width: 130px;
+            height: 15px;
+        }
+    </style>
+</head>
+<body>
+<form action="" method="post">
+    <ul class="u1">
+        <li>
+            账号：
+            <input type="text" name="account" placeholder="请输入账号" required autofocus>
+            (必填)
+        </li>
+        <li style="height: 10px"></li>
+        <li>
+            密码：
+            <input type="password" name="pwd" placeholder="请输入密码" required>
+            (必填)
+        </li>
+        <li style="height: 10px"></li>
+        <li>性别：
+            <input type="radio" name="gender" checked>保密
+            <input type="radio" name="gender">男
+            <input type="radio" name="gender">女
+            (选填)
+        </li>
+        <li style="height: 10px"></li>
+        <li>
+            邮箱：
+            <input type="email" name="email" placeholder="请输入邮箱地址">
+            (选填)
+        </li>
+        <li style="height: 10px"></li>
+        <li>
+            电话：
+            <input type="tel" name="phone" placeholder="请输入联系电话" required>
+            (必填)
+        </li>
+    </ul>
+
+    <ul class="ul2">
+        <li>
+            <select style="width: 120px">
+                <option>互联网/电子商务</option>
+                <option>拍电影</option>
+                <option>打游戏</option>
+                <option>爱上鸭脑壳</option>
+                <option>一本道</option>
+            </select>
+        </li>
+        <li style="height: 10px"></li>
+        <li>
+            <input type="text" value="重庆">
+        </li>
+        <li style="height: 10px"></li>
+        <li>
+            <textarea name="signature" cols="40" rows="5" placeholder="请输入您的个性签名，不超过120字符"></textarea>
+        </li>
+        <li class="height">
+            <fieldset style="width: 400px ;margin: 0 auto">
+                <legend align="center">健康信息</legend>
+                身高：<input type="text" name="height">
+                体重：<input type="text" name="weight">
+            </fieldset>
+        </li>
+        <li class="hobby">
+            <fieldset>
+                <legend align="center">兴趣爱好</legend>
+                <input type="checkbox" name="hobby" value="checkbox" dir="rtl">游泳
+                <input type="checkbox" name="hobby" value="checkbox" dir="rtl">唱歌
+                <input type="checkbox" name="hobby" value="checkbox" dir="rtl">摄影
+                <input type="checkbox" name="hobby" value="checkbox" dir="rtl" checked>运动
+                <input type="checkbox" name="hobby" value="checkbox" dir="rtl">游戏
+                <input type="checkbox" name="hobby" value="checkbox" dir="rtl" checked>撸代码
+            </fieldset>
+        </li>
+        <li style="height: 10px"></li>
+        <li>
+            <input type="submit" value="注册">
+            <input type="button" value="取消">
+        </li>
+    </ul>
+</form>
+</body>
+</html>
