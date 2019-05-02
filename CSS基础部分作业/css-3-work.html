@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>p1901_作业</title>
+    <style>
+        #a1 section{
+            color: red;
+            font-weight: bold;
+        }
+        #section3 p{
+            color: green;
+        }
+        #section3 div p{
+            color: yellow;
+            font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+        }
+        #p1:hover{
+            color: red;
+        }
+        #u1 li{
+            float: left;
+        }
+        #u1 a:hover{
+            background-color: mediumspringgreen;
+        }
+        }
+    </style>
+</head>
+<body>
+<section>
+    <article id="a1">
+        <h1>Docker的应用场景</h1>
+        <section>
+
+            <p>Web 应用的自动化打包和发布。</p>
+
+        </section>
+
+        <section>
+
+            <p>自动化测试和持续集成、发布。</p>
+
+        </section>
+
+        <section style="border: 1px black dashed">
+            <p>在服务型环境中部署和调整数据库或其他的后台应用。</p>
+
+
+        </section>
+
+        <p>从头编译或者扩展现有的OpenShift或Cloud Foundry平台来搭建自己的PaaS环境。</p>
+
+    </article>
+
+
+</section>
+
+<section id="section3">
+    <article>
+        <header>Docker 的优点</header>
+        <div>
+            <div>
+
+                <p>
+                    1、简化程序：
+
+                </p>
+
+
+            </div>
+
+            <p>
+
+                Docker 让开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux
+                机器上，便可以实现虚拟化。Docker改变了虚拟化的方式，使开发者可以直接将自己的成果放入Docker中进行管理。方便快捷已经是 Docker的最大优势，过去需要用数天乃至数周的
+                任务，在Docker容器的处理下，只需要数秒就能完成。
+            </p>
+
+
+        </div>
+
+
+        <div>
+
+            <p>
+                2、避免选择恐惧症：
+
+            </p>
+
+
+        </div>
+
+
+    </article>
+
+
+</section>
+
+
+<section>
+
+    <article>
+
+        <p>Docker 允许你在容器内运行应用程序， 使用 docker run 命令来在容器内运行一个应用程序。</p>
+
+        <p id="p1">输出Hello world</p>
+
+
+        <pre>runoob@runoob:~$ docker run ubuntu:15.10 /bin/echo "Hello world"</pre>
+
+
+
+
+
+
+        <div>
+            以上命令完整的意思可以解释为：
+            <div style="display: inline-block">
+                Docker 以 ubuntu15.10 镜像创建一
+            </div>
+            <div style="display: inline-block">
+
+                个新容器，然后在容器里执行 bin/echo "Hello world"，然后输出结果
+            </div>
+
+        </div>
+
+    </article>
+</section>
+    <!--在后面自行写一含有个账户 密码 确认密码 提交按钮 重置按钮 的表单 提交地址随意 提交方法 POST方法 请给表单加上红色边框 10-->
+<div style="border: 1px red solid; width: 310px">
+    <form action="https://www.baidu.com/" method="post">
+        <label for="x1">
+            账户:
+        </label>
+        <input id="x1" name="t1">
+        <br>
+        <label for="x2">
+            密码:
+        </label>
+        <input type="password" id="x2" name="t2">
+        <input type="submit">
+        <input type="reset">
+    </form>
+</div>
+    <!--分页代码 15分-->
+<div style="text-align: center">
+    <ul type="none" id="u1">
+        <li><a href=""><</a></li>
+        <li><a href="">1</a></li>
+        <li><a href="">2</a></li>
+        <li><a href="">3</a></li>
+        <li><a href="">4</a></li>
+        <li><a href="">5</a></li>
+        <li><a href="">6</a></li>
+        <li><a href="">7</a></li>
+        <li><a href="">></a></li>
+    </ul>
+</div>
+<br>
+<br>
+<br>
+
+<div>
+    <table border="0" cellspacing="0">
+        <tr>
+            <td width="30" height="100" style="background: red"></td>
+            <td width="60" height="100" style="background: yellow"></td>
+        </tr>
+    </table>
+</div>
+</body>
+<!--给这个页面加上title 内容为 : pxxxx_作业 5分-->
+
+<!--假设第一篇文章的 Docker的应用场景 为本文章的标题 请给他加上语义化的标签 5分-->
+
+<!--给第一篇文章下面的所有section里面的内容 字体颜色变为 红色 加粗 5分-->
+
+<!--给第一篇文章的最后一个section 加上虚线形状的边框 5分-->
+
+<!--给第一篇文章没有标签部分的文字给个你认为最能表示他语义化的标签 5分-->
+
+<!--给第二篇文章里面的所有p标签给出绿色 (使用id选择器) 5分-->
+
+<!--给第二篇文章的article标签所有的子div标签下面的子p标签 改变字体样式和颜色(黄色) （使用class选择器） 5分-->
+
+<!--第三篇文章中有代码 请加上适合的标签 5分-->
+
+<!--给输出第三篇第二行文字在页面中换行 并加上样式,鼠标移动过去改变颜色 5分-->
+<!--第三篇文章文字 '以上命令完整的意思可以解释为：' 后面的文字分为了两行 在不删除div标签的情况下使他们成为一行 10分-->
+</html>
